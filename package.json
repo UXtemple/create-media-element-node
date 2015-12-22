@@ -1,0 +1,37 @@
+{
+  "name": "create-media-element-node",
+  "description": "creates a media element node as a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UXtemple/create-media-element-node.git"
+  },
+  "keywords": [
+    "create",
+    "media",
+    "element",
+    "node",
+    "webaudio",
+    "api",
+    "promise",
+    "playpause",
+    "audiocontext"
+  ],
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UXtemple/create-media-element-node/issues"
+  },
+  "homepage": "https://github.com/UXtemple/create-media-element-node#readme",
+  "devDependencies": {
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "simple-media-element": "^1.1.0"
+  }
+}
