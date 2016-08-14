@@ -3,7 +3,7 @@ var createAudio = require('simple-media-element').audio;
 module.exports = function createMediaElementNode(props) {
   return new Promise(function(resolve, reject) {
     // create the audio media element
-    var audio = createAudio(props.src);
+    var audio = createAudio(props.src, props.opts);
     // create the node node that the web audio api needs
     var node = props.context.createMediaElementSource(audio);
 
